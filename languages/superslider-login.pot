@@ -1,0 +1,370 @@
+# SuperSlider-login.
+# Copyright (C) 2012 Daiv Mowbray
+# This file is distributed under the same license as the PACKAGE package.
+# Daiv Mowbray <daiv@daivmowbray.com>, 2012.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 3.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/superslider-login\n"
+"POT-Creation-Date: 2012-06-19 11:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin/superslider-login-ui.php:28
+msgid "ACCESS DENIED: Your don't have permission to do this."
+msgstr ""
+
+#: admin/superslider-login-ui.php:51
+msgid "login Default Options reloaded."
+msgstr ""
+
+#: admin/superslider-login-ui.php:58
+msgid "login Options saved."
+msgstr ""
+
+#: admin/superslider-login-ui.php:102
+msgid "SuperSlider-Login Options"
+msgstr ""
+
+#: admin/superslider-login-ui.php:135 admin/superslider-login-ui.php:151 login_panel.php:38
+msgid "Appearance"
+msgstr ""
+
+#: admin/superslider-login-ui.php:136
+msgid "Transition Options"
+msgstr ""
+
+#: admin/superslider-login-ui.php:137 admin/superslider-login-ui.php:259
+msgid "Messages"
+msgstr ""
+
+#: admin/superslider-login-ui.php:142
+msgid "File storage"
+msgstr ""
+
+#: admin/superslider-login-ui.php:154 login_panel.php:40
+msgid "Themes"
+msgstr ""
+
+#: admin/superslider-login-ui.php:193
+msgid "Login Options"
+msgstr ""
+
+#: admin/superslider-login-ui.php:201
+msgid "Transition Type"
+msgstr ""
+
+#: admin/superslider-login-ui.php:215
+msgid "Transition action."
+msgstr ""
+
+#: admin/superslider-login-ui.php:221
+msgid "IN is the begginning of transition. OUT is the end of transition."
+msgstr ""
+
+#: admin/superslider-login-ui.php:225
+msgid "Transition Direction."
+msgstr ""
+
+#: admin/superslider-login-ui.php:231
+msgid "Panel enters from above (vertical) or from the side (horizontal)?"
+msgstr ""
+
+#: admin/superslider-login-ui.php:234
+msgid "Overlay opacity "
+msgstr ""
+
+#: admin/superslider-login-ui.php:237
+msgid "(default 0.7)"
+msgstr ""
+
+#: admin/superslider-login-ui.php:240
+msgid "Transition time "
+msgstr ""
+
+#: admin/superslider-login-ui.php:243
+msgid "In milliseconds, ie: 1000 = 1 second, (default 500)"
+msgstr ""
+
+#: admin/superslider-login-ui.php:246
+msgid "Login link class"
+msgstr ""
+
+#: admin/superslider-login-ui.php:249
+msgid "Add a class for the links which you want to activate the login slider. Search for comment_registration in your themes comments.php file and add class='loginlink' to the login link."
+msgstr ""
+
+#: admin/superslider-login-ui.php:262
+msgid "Personalize Messages"
+msgstr ""
+
+#: admin/superslider-login-ui.php:265
+msgid "Logged in Headline"
+msgstr ""
+
+#: admin/superslider-login-ui.php:272
+msgid "Message"
+msgstr ""
+
+#: admin/superslider-login-ui.php:278
+msgid "Guest Headline"
+msgstr ""
+
+#: admin/superslider-login-ui.php:285
+msgid "Guest Message"
+msgstr ""
+
+#: admin/superslider-login-ui.php:303
+msgid "File Storage"
+msgstr ""
+
+#: admin/superslider-login-ui.php:305
+msgid "Loading Options"
+msgstr ""
+
+#: admin/superslider-login-ui.php:311
+msgid "Load Mootools 1.4.5 into your theme header."
+msgstr ""
+
+#: admin/superslider-login-ui.php:320
+msgid "Load css from default location. login plugin folder."
+msgstr ""
+
+#: admin/superslider-login-ui.php:324
+msgid "Load css from plugin-data folder, see side note. (Recommended)"
+msgstr ""
+
+#: admin/superslider-login-ui.php:328
+msgid "Load the css from your theme folder, see side note."
+msgstr ""
+
+#: admin/superslider-login-ui.php:332
+msgid "Don't load css, manually add to your theme css file."
+msgstr ""
+
+#: admin/superslider-login-ui.php:339
+msgid "If your theme or any other plugin loads the mootools 1.4 javascript framework into your file header, you can de-activate it here."
+msgstr ""
+
+#: admin/superslider-login-ui.php:340
+msgid "Based on your load css settings you will need to do one of the following. Via ftp, move the folder named plugin-data from this plugin folder into your wp-content folder, or into your WordPress theme folder. This is recomended to avoid over writing any changes you make to the css files when you update this plugin."
+msgstr ""
+
+#: admin/superslider-login-ui.php:346
+msgid "Remove Options"
+msgstr ""
+
+#: admin/superslider-login-ui.php:347
+msgid "Select to have the plugin options removed from the data base upon deactivation."
+msgstr ""
+
+#: admin/superslider-login-ui.php:351
+msgid "Reload Default Options"
+msgstr ""
+
+#: admin/superslider-login-ui.php:352
+msgid "Update options"
+msgstr ""
+
+#: login_panel.php:18 login_panel.php:126
+#, php-format
+msgid "Howdy, <a href=\"%1$s\" title=\"Edit your profile\">%2$s</a>"
+msgstr ""
+
+#: login_panel.php:27
+msgid "Account"
+msgstr ""
+
+#: login_panel.php:29
+msgid "Dashboard"
+msgstr ""
+
+#: login_panel.php:30
+msgid "Update Profile"
+msgstr ""
+
+#: login_panel.php:32
+msgid "Comments"
+msgstr ""
+
+#: login_panel.php:34
+msgid "Log out"
+msgstr ""
+
+#: login_panel.php:42
+msgid "Widgets"
+msgstr ""
+
+#: login_panel.php:44
+msgid "Theme Editor"
+msgstr ""
+
+#: login_panel.php:52
+msgid "Posts"
+msgstr ""
+
+#: login_panel.php:55
+msgid "New Post"
+msgstr ""
+
+#: login_panel.php:57
+msgid "Edit Posts"
+msgstr ""
+
+#: login_panel.php:59
+msgid "Tags"
+msgstr ""
+
+#: login_panel.php:61
+msgid "Categories"
+msgstr ""
+
+#: login_panel.php:64 login_panel.php:66
+msgid "Plugins"
+msgstr ""
+
+#: login_panel.php:68
+msgid "Install a Plugin"
+msgstr ""
+
+#: login_panel.php:70
+msgid "Plugin Editor"
+msgstr ""
+
+#: login_panel.php:79
+msgid "Pages"
+msgstr ""
+
+#: login_panel.php:81
+msgid "New Page"
+msgstr ""
+
+#: login_panel.php:82
+msgid "Edit Pages"
+msgstr ""
+
+#: login_panel.php:86 login_panel.php:88
+msgid "Library"
+msgstr ""
+
+#: login_panel.php:75 login_panel.php:89
+msgid "Add New"
+msgstr ""
+
+#: login_panel.php:78 login_panel.php:93
+msgid "Users"
+msgstr ""
+
+#: login_panel.php:104
+msgid "Settings"
+msgstr ""
+
+#: login_panel.php:106
+msgid "General"
+msgstr ""
+
+#: login_panel.php:91
+msgid "Writing"
+msgstr ""
+
+#: login_panel.php:92
+msgid "Reading"
+msgstr ""
+
+#: login_panel.php:93
+msgid "Discussion"
+msgstr ""
+
+#: login_panel.php:94
+msgid "Media"
+msgstr ""
+
+#: login_panel.php:95
+msgid "Privacy"
+msgstr ""
+
+#: login_panel.php:96
+msgid "Permalinks"
+msgstr ""
+
+#: login_panel.php:97
+msgid "Miscellaneous"
+msgstr ""
+
+#: login_panel.php:114 login_panel.php:174
+msgid "Close"
+msgstr ""
+
+#: login_panel.php:131
+msgid "Log in"
+msgstr ""
+
+#: login_panel.php:132 login_panel.php:149
+msgid "Username"
+msgstr ""
+
+#: login_panel.php:134
+msgid "Password"
+msgstr ""
+
+#: login_panel.php:136
+msgid "Remember Me"
+msgstr ""
+
+#: login_panel.php:140
+msgid "Lost your password?"
+msgstr ""
+
+#: login_panel.php:148
+msgid "Register For This Site"
+msgstr ""
+
+#: login_panel.php:151
+msgid "E-mail"
+msgstr ""
+
+#: login_panel.php:154
+msgid "A password will be e-mailed to you."
+msgstr ""
+
+#: login_panel.php:155 login_panel.php:173
+msgid "Register"
+msgstr ""
+
+#: login_panel.php:173
+msgid "Log In"
+msgstr ""
+
+#: superslider-login.php:161
+msgid "Superslider Login"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (PACKAGE VERSION)  #-#-#-#-#
+#. Plugin Name of an extension
+#: superslider-login.php:161
+msgid "SuperSlider-Login"
+msgstr ""
+
+#. Plugin URI of an extension
+msgid "http://superslider.daivmowbray.com/superslider/superslider-login"
+msgstr ""
+
+#. Description of an extension
+msgid ""
+"A slidein login panel. Theme based, animated, automatic user detection , "
+"uses mootools 1.4.5 java script."
+msgstr ""
+
+#. Author of an extension
+msgid "Daiv Mowbray"
+msgstr ""
+
+#. Author URI of an extension
+msgid "superslider.daivmowbray.com"
+msgstr ""

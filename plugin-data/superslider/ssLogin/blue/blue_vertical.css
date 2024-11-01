@@ -1,0 +1,144 @@
+/*
+Name: Sliding Login Panel with mootools 1.2
+Author: daiv mowbray
+Author URI: http://superslider.daivmowbray.com/
+Date: Feb 25, 2013
+Version: 3.1
+
+	The CSS, XHTML and design is released under Creative Common License 3.0:
+	http://creativecommons.org/licenses/by-sa/3.0/
+
+*/ 
+
+/***** clearfix *****/
+.clear {clear: both;height: 0;line-height: 0;}
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix{display: block;}
+
+/* sliding panel */
+#toppanel {
+    position: absolute;   /*Panel will overlap  content */
+    /*position: relative;*/   /*Panel will "push" the content down */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100000;    
+    margin: 0px auto;
+}
+#loginpanel {
+    display:none;
+	background: #62a4db;
+	width: 100%;
+}
+#loginpanel h1 {}
+#loginpanel h2{
+	margin: 0;
+}
+#loginpanel p {
+	margin: 5px 0;
+	padding: 0;
+}
+#loginpanel a {}
+
+#loginpanel a:hover {}
+
+.lost-pwd {
+	display: block;
+	float: left;
+}
+#loginpanel ul {
+	margin: 0 0 5px 0;
+	padding: 0;
+	list-style: none;
+}
+#loginpanel .ss-content {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 15px;
+	text-align: left;
+}
+#loginpanel .second {
+	float: left;
+	margin-bottom: 10px;
+	padding: 0 15px;
+	border-right: 1px solid silver;
+	min-height: 220px;
+	min-width: 100px;
+	max-width: 200px;
+}
+#loginpanel .first {
+	border-left: 1px solid silver;
+	width: 280px;
+}
+#loginpanel .widget-second{
+	float: left;
+	margin-bottom: 10px;
+	padding: 0 15px;
+	border-right: 1px solid #333;
+	min-height: 220px;
+	min-width: 100px;
+}
+#loginpanel .widget-second .widget {
+	float: left;
+	margin: 10px;
+	padding: 0 15px;
+	border-right: 1px solid #333;
+	max-width: 200px;
+	min-width: 150px;
+}
+#loginpanel .ss-content label {
+	padding-top: 8px;
+	display: block;
+}
+#loginpanel .ss-content input.field {}
+
+#loginpanel .ss-content input:focus.field {}
+
+/* BUTTONS */
+.bt_login, .bt_register {}
+
+.bt_login:hover, .bt_register:hover {}
+
+/* Panel Tab/button */
+.logintab {
+	height: 36px;
+	position: relative;
+    top: -4px;
+    z-index: 999;
+}
+.logintab ul.login {
+	display: block;
+	position: relative;
+  	float: right;
+  	clear: right;
+	line-height: 35px;
+	margin: 0;
+	right: 15%;
+}
+.login li {
+  	background: #62a4db;
+  	height: 35px;	
+	padding: 0;
+	margin: 0;
+  	display: block;
+	float: left;
+}
+.login li.ss_right {
+  	width: 16px;
+  	-moz-border-radius: 0 0 12px 0;
+    -webkit-border-radius: 0 0 12px 0;
+    border-radius: 0 0 12px 0;
+}
+.login li.ss_left {
+  	width: 16px;
+  	-moz-border-radius: 0 0 0 12px ;
+    -webkit-border-radius: 0 0 0 12px ;
+    border-radius: 0 0 0 12px ;
+}
+.logintab a {
+	cursor: pointer;
+	margin: 0px 10px;
+}
+.logintab a:hover {}
+
+.logintab .sep {}
